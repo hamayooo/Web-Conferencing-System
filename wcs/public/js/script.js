@@ -1,6 +1,6 @@
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBq4vED4vtEbf8rP8O-1SKrdOtTMVlkjW4",
+    apiKey: "YOUR API KEYS",
     authDomain: "chatapp-f02d4.firebaseapp.com",
     databaseURL: "https://chatapp-f02d4.firebaseio.com",
     projectId: "chatapp-f02d4",
@@ -11,7 +11,7 @@
 
   // MSG送信準備
   const newPostRef = firebase.database();
-  let room = "hamayoo_room";
+  let room = "room1";
 
   const username = document.getElementById("username");
   const output = document.getElementById("output");
