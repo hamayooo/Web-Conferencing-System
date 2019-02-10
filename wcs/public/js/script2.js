@@ -2,7 +2,7 @@
 $(function() {
   // Peer object
   const peer = new Peer({
-    key: "dd45fafd-6381-42e6-af69-5b01b61ca8d0",
+    key: "Your API Key",
     debug: 3,
   });
 
